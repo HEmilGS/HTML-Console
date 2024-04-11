@@ -1,0 +1,110 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layout-game{
+  width: 350px;
+  height: 500px;
+  border: solid 5px black;
+  border-radius: 5% 5% 17% 5%;
+  background-color: #C0BCB8; 
+}
+
+.screenlayout-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.screen-border{
+  width: 250px;
+  height: 200px;
+
+  border-radius: 5% 5% 17% 5%;
+  background-color: #575866;
+}
+
+.screen-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+
+}
+
+.screen{
+  width: 150px;
+  height: 150px;
+  border: solid 2px black;
+  background-color:#4D5927;
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.container-pad{
+  width: 100px;
+  height: 100px;
+  background-color: darkcyan;
+  margin: 3%;
+
+}
+
+.container-select{
+  width: 50px;
+  height: 50px;
+  margin: 3%;
+  display: flex;
+  justify-content: space-around;
+  transform: rotate(-35deg);
+  margin-right: 40px;
+  margin-top: 150px;
+}
+
+.container-action{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonA{
+  width: 40px;
+  height: 40px;
+  background-color: #74041E;
+  border-radius: 100%;
+
+}
+
+.buttonB{
+  margin-top: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: #74041E;
+  border-radius: 100%;
+}
+
+.btn-start{
+  margin-top: 25px;
+  width: 35px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 45%;
+
+}
+
+.btn-select{
+  width: 35px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 45%;
+  margin-right: 15px;
+}
