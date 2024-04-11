@@ -66,7 +66,7 @@ const pokemonData = async (pokeUrl) =>{
 
             <div className='container-start'>
             <button className='btn-start'></button>
-            <div>Start</div>
+            <div>Start.</div>
             </div>
             </div>
 
