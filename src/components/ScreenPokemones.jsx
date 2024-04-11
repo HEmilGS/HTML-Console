@@ -1,19 +1,21 @@
 
-
+import './ScreenPokemones.css';
 const ScreenPokemones = ({pokemones}) => {
-    console.log(pokemones);
 
     return(
-        
-        <div> 
+        <div className="game-container"> 
+
+
 
             {
-
-                pokemones.map((pokemon) => (
-                    <div key={pokemon.id}>{pokemon.name}
-                    <img src={pokemon.sprites.front_default} alt="pokemon image" />
+                pokemones?.map((pokemon, idx) => (
+                    <div key={pokemon.id} 
+                    className="pokemon-item">
+                    <img src={pokemon.sprites.front_default}  className='pokemon-imagen' alt="pokemon image"/>
+                    {pokemon.name}
+                    
+                    
                     </div>
-                  
                 )) 
             }
         </div>

@@ -35,7 +35,7 @@ const pokemonData = async (pokeUrl) =>{
 
   return (
     <>
-      
+      <h1>Listado de Pokémon</h1>
       <div className='main-container'>
 
         <div className='layout-game'>
@@ -45,6 +45,7 @@ const pokemonData = async (pokeUrl) =>{
              <div className='screen'> 
              {
               pokemones && <ScreenPokemones pokemones={pokemones} />
+              
              }
              
              </div>
@@ -54,7 +55,14 @@ const pokemonData = async (pokeUrl) =>{
 
           <div className='buttons-container'>
 
-            <div className='container-pad'></div>
+            <div className='container-pad'>
+            <button className="btn-right"></button>
+              <div className="container-up-down">
+                <button className="btn-up"></button>
+                <button className="btn-down"></button>
+              </div>
+              <button className="btn-left"></button>
+            </div>
 
             
             <div className='container-select'>
@@ -66,18 +74,18 @@ const pokemonData = async (pokeUrl) =>{
 
             <div className='container-start'>
             <button className='btn-start'></button>
-            <div>Start.</div>
+            <div>Start</div>
             </div>
             </div>
 
             <div className='container-action'>
 
             <div className='buttonB-container'>
-            <div className='buttonB'></div>
+            <button className='buttonB'></button>
             </div>
 
             <div className='buttonA-container'>
-            <div className='buttonA'></div>
+            <button className='buttonA'></button>
             </div>
 
             </div>

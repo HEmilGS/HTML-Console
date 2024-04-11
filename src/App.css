@@ -50,12 +50,46 @@
   padding-top: 10px;
 }
 
-.container-pad{
+.container-pad {
   width: 100px;
   height: 100px;
-  background-color: darkcyan;
-  margin: 3%;
+}
 
+.container-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-up-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-up {
+  width: 25px;
+  height: 40px;
+  background-color: #020204;
+}
+
+.btn-down {
+  width: 25px;
+  height: 40px;
+  background-color: #020204;
+}
+
+.btn-right {
+  width: 25px;
+  height: 32px;
+  background-color: #020204;
+}
+
+.btn-left {
+  width: 25px;
+  height: 32px;
+  background-color: #020204;
 }
 
 .container-select{
