@@ -35,7 +35,7 @@ const pokemonData = async (pokeUrl) =>{
 
   return (
     <>
-      <h1>Listado de Pokémon</h1>
+
       <div className='main-container'>
 
         <div className='layout-game'>
