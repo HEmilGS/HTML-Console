@@ -1,20 +1,17 @@
 
 import './ScreenPokemones.css';
-const ScreenPokemones = ({pokemones}) => {
+const ScreenPokemones = ({pokemones, position}) => {
 
     return(
         <div className="game-container"> 
-
-
-
             {
                 pokemones?.map((pokemon, idx) => (
                     <div key={pokemon.id} 
-                    className="pokemon-item">
-                    <img src={pokemon.sprites.front_default}  className='pokemon-imagen' alt="pokemon image"/>
+                    className="pokemon-item" 
+                    style={{ backgroundColor: idx === position ? 'darkgreen' : 'transparent' }}
+                    >
+                    <img src={pokemon.sprites.front_default}  className='pokemon-imagen' />
                     {pokemon.name}
-                    
-                    
                     </div>
                 )) 
             }
@@ -22,4 +19,4 @@ const ScreenPokemones = ({pokemones}) => {
     );
 };
 
-export default ScreenPokemones
+export default ScreenPokemones;

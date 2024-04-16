@@ -6,10 +6,10 @@
 }
 
 .layout-game{
-  width: 350px;
-  height: 500px;
-  border: solid 5px black;
-  border-radius: 5% 5% 17% 5%;
+  width: 700px; /* Doble tamaño */
+  height: 1000px; /* Doble tamaño */
+  border: solid 10px black; /* Doble tamaño */
+  border-radius: 10% 10% 34% 10%; /* Doble tamaño */
   background-color: #C0BCB8; 
 }
 
@@ -17,14 +17,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 100px; /* Doble tamaño */
 }
 
 .screen-border{
-  width: 250px;
-  height: 200px;
-
-  border-radius: 5% 5% 17% 5%;
+  width: 500px; /* Doble tamaño */
+  height: 400px; /* Doble tamaño */
+  border-radius: 10% 10% 34% 10%; /* Doble tamaño */
   background-color: #575866;
 }
 
@@ -32,14 +31,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
-
+  padding-top: 40px; /* Doble tamaño */
 }
 
 .screen{
-  width: 150px;
-  height: 150px;
-  border: solid 2px black;
+  width: 300px; /* Doble tamaño */
+  height: 300px; /* Doble tamaño */
+  border: solid 4px black; /* Doble tamaño */
   background-color:#4D5927;
 }
 
@@ -47,12 +45,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 20px; /* Doble tamaño */
 }
 
 .container-pad {
-  width: 100px;
-  height: 100px;
+  width: 200px; /* Doble tamaño */
+  height: 200px; /* Doble tamaño */
 }
 
 .container-pad {
@@ -69,76 +67,76 @@
 }
 
 .btn-up {
-  width: 25px;
-  height: 40px;
+  width: 50px; /* Doble tamaño */
+  height: 80px; /* Doble tamaño */
   background-color: #020204;
 }
 
 .btn-down {
-  width: 25px;
-  height: 40px;
+  width: 50px; /* Doble tamaño */
+  height: 80px; /* Doble tamaño */
   background-color: #020204;
 }
 
 .btn-right {
-  width: 25px;
-  height: 32px;
+  width: 50px; /* Doble tamaño */
+  height: 64px; /* Doble tamaño */
   background-color: #020204;
 }
 
 .btn-left {
-  width: 25px;
-  height: 32px;
+  width: 50px; /* Doble tamaño */
+  height: 64px; /* Doble tamaño */
   background-color: #020204;
 }
 
 .container-select{
-  width: 50px;
-  height: 50px;
-  margin: 3%;
+  width: 100px; /* Doble tamaño */
+  height: 100px; /* Doble tamaño */
+  margin: 6%; /* Doble tamaño */
   display: flex;
   justify-content: space-around;
   transform: rotate(-35deg);
-  margin-right: 40px;
-  margin-top: 150px;
+  margin-right: 80px; /* Doble tamaño */
+  margin-top: 300px; /* Doble tamaño */
 }
 
 .container-action{
-  width: 100px;
-  height: 100px;
+  width: 200px; /* Doble tamaño */
+  height: 200px; /* Doble tamaño */
   display: flex;
   justify-content: space-around;
 }
 
 .buttonA{
-  width: 40px;
-  height: 40px;
+  width: 80px; /* Doble tamaño */
+  height: 80px; /* Doble tamaño */
   background-color: #74041E;
   border-radius: 100%;
 
 }
 
 .buttonB{
-  margin-top: 30px;
-  width: 40px;
-  height: 40px;
+  margin-top: 60px; /* Doble tamaño */
+  width: 80px; /* Doble tamaño */
+  height: 80px; /* Doble tamaño */
   background-color: #74041E;
   border-radius: 100%;
 }
 
 .btn-start{
-  margin-top: 25px;
-  width: 35px;
-  height: 10px;
+  margin-top: 50px; /* Doble tamaño */
+  width: 70px; /* Doble tamaño */
+  height: 20px; /* Doble tamaño */
   background-color: gray;
   border-radius: 45%;
 
 }
 
 .btn-select{
-  width: 35px;
-  height: 10px;
+  width: 70px; /* Doble tamaño */
+  height: 20px; /* Doble tamaño */
   background-color: gray;
   border-radius: 45%;
-  margin-right: 15px;
+  margin-right: 30px; /* Doble tamaño */
 }
